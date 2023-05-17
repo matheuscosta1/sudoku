@@ -1,4 +1,4 @@
-# sudoku
+# Sudoku
 Resolução do jogo Sudoku com algoritmos de Inteligência Artificial
 
 Algoritmos Implementados: 
