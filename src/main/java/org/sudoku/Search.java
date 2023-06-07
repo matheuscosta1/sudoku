@@ -95,7 +95,8 @@ public class Search {
 
     public SudokuResponse greedySearch(SudokuBoard su) throws CloneNotSupportedException {
         SudokuBoard selected_su;
-        su.setHeuristic();
+
+        this.setHeuristic2(su);
 
         int numberOfSteps = 0;
 
@@ -180,7 +181,7 @@ public class Search {
 
         SudokuResponse sudokuResponse = new SudokuResponse();
 
-        SudokuBoard currentBoard = null;
+        SudokuBoard currentBoard;
 
         while (!openSet.isEmpty()) {
 
